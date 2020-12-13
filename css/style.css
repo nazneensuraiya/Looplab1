@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color: white
+}
+.navbar{
+    border-bottom: 3px solid blue;
+    background: whitesmoke;
+    opacity: 0.7;
+}
+#home-section{
+    background: url("../img/pexels-anna-shvets-3683106.jpg")no-repeat center top;
+    background-size: cover;
+    min-height: 600px;
+    background-attachment: fixed;
+
+    
+}
+#home-section .dark-overlay
+{
+    background: rgba(0,0,0,0.4);
+    min-height: 600px;
+}
+#home-section .home-inner{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+#explore-head-section{
+    background: purple;
+}
+
+#explore-main-section .fas{
+    background: black;
+    color:white;
+    padding:4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+#create-main-section .fas{
+    background:white;
+    color:yellowgreen;
+    padding:4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+#share-main-section .fas{
+    background:black;
+    color:white;
+    padding:4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
